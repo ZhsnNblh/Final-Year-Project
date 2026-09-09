@@ -42,7 +42,7 @@ To design and implement an intelligent environmental control system for mushroom
 
 The system consists of four main layers:
 
-```text
+```
 ┌─────────────────────────────┐
 │       Sensing Layer         │
 │                             │
@@ -83,6 +83,7 @@ The system consists of four main layers:
 │ • Historical trends         │
 │ • Misting control           │
 └─────────────────────────────┘
+```
 ## 🔧 Hardware Components
 
 | Component | Purpose |
@@ -132,7 +133,7 @@ The system consists of four main layers:
 
 The system consists of four main layers:
 
-```text
+```
 Sensing Layer
      │
      ├── DHT22
@@ -158,15 +159,7 @@ Cloud Layer
 Application Layer
      │
      └── Web Dashboard
-
-
-Important: because this is Markdown, make sure the opening and closing triple backticks are there.
-
----
-
-# 6. Add Data Collection
-
-```markdown
+```
 ## 📊 Data Collection
 
 The system collects environmental data from multiple sensors.
@@ -195,7 +188,7 @@ The dataset was prepared using Google Colab.
 
 The preprocessing workflow consisted of:
 
-```text
+```
 Firebase Realtime Database
             │
             ▼
@@ -216,13 +209,10 @@ Remove unnecessary attributes
             │
             ▼
      Train/Test Split
-
+```
 
 ---
 
-# 8. Add Machine Learning
-
-```markdown
 ## 🤖 Machine Learning
 
 Two machine learning classification algorithms were evaluated:
@@ -277,8 +267,7 @@ Humidity had the strongest influence on the misting prediction.
 The trained XGBoost model was deployed directly onto the Raspberry Pi 4.
 
 The deployment process was:
-
-```text
+```
 Train XGBoost Model
         │
         ▼
@@ -307,15 +296,13 @@ Upload Data to Firebase
 
 
 ---
+```
 
-# 12. Add Automated Misting
 
-```markdown
 ## 💧 Automated Misting Control
 
 The Raspberry Pi uses the machine learning prediction to control the misting system through a relay module.
-
-```text
+```
 Environmental Sensors
         │
         ▼
@@ -335,16 +322,12 @@ Environmental Sensors
 
 
 ---
-
-# 13. Add Web Dashboard
-
-This is where I strongly recommend adding screenshots later.
-
-```markdown
+```
 ## 🌐 Web Dashboard
 
 A web-based dashboard was developed for real-time monitoring of the mushroom cultivation environment.
-
+```
+```
 ### Dashboard Features
 
 - Live sensor readings
@@ -363,9 +346,10 @@ A web-based dashboard was developed for real-time monitoring of the mushroom cul
 - JavaScript
 - Chart.js
 - Firebase Realtime Database
-
+```
+```
 ## 🌐 Web Dashboard
 
 Here is the web dashboard developed for real-time monitoring:
 
-![Web Dashboard](dashboard.png)
+![Web Dashboard](dashboard.png)(dashboard2.png) 
