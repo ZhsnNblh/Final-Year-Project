@@ -326,8 +326,6 @@ Environmental Sensors
 ## 🌐 Web Dashboard
 
 A web-based dashboard was developed for real-time monitoring of the mushroom cultivation environment.
-```
-```
 ### Dashboard Features
 
 - Live sensor readings
@@ -346,10 +344,9 @@ A web-based dashboard was developed for real-time monitoring of the mushroom cul
 - JavaScript
 - Chart.js
 - Firebase Realtime Database
-```
-```
 ## 🌐 Web Dashboard
 
 Here is the web dashboard developed for real-time monitoring:
 
-![Web Dashboard](dashboard.png)(dashboard2.png) 
+![Web Dashboard](dashboard.png)
+![Web Dashboard](dashboard2.png)
