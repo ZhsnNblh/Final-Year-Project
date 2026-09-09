@@ -69,7 +69,7 @@ The system consists of four main layers:
 │                             │
 │    Firebase Realtime DB     │
 │                             │
-│ • Store sensor readings      │
+│ • Store sensor readings     │
 │ • Real-time synchronization │
 └──────────────┬──────────────┘
                │
